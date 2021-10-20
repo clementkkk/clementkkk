@@ -1,0 +1,48 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.w3-container{
+    
+    height: 250px;
+    background-color: rgb(182, 154, 168);
+    opacity: 0.4;
+
+    
+    
+    
+}
+.w3-container.w3-block{
+    background-color: rgb(249, 255, 247);
+    display: flex;
+    border: 1px solid white;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: darkmagenta;
+
+    
+
+
+}
+.item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(234, 236, 236);
+    border-radius: 0.5rem;
+}
+p{
+    color: rgb(24, 13, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 12px 12px;
+    text-shadow: 2px 2px gray;
+    font-size: medium;
+}
+.item:hover{
+        transform: scale(1.1);
+}
+.item{
+    box-shadow: 10px 10px 5px darkmagenta;
+}
