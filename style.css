@@ -50,3 +50,13 @@ p{
     text-align: end;
     align-items: center;
 }
+.w3-container.w3-white{
+    height: 350px;
+    background-image: url(images/great.jpg);
+
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+}
